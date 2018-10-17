@@ -1,0 +1,5 @@
+title : "Columnstore and {B+} tree - Are Hybrid Physical Designs Important?"
+date : "2018-05-27"
+authors : "Adam Dziedzic, Jingjing Wang, Sudipto Das, Bolin Ding, Vivek R. Narasayya and Manoj Syamala"
+publication : "Proceedings of the 2018 International Conference on Management of
+               Data, {SIGMOD} Conference 2018, Houston, TX, USA, June 10-15, 2018"

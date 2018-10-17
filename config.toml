@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
+pluralizelisttitles = "false"
 
 
 # Main menu
@@ -23,9 +24,9 @@ googleAnalytics = ""
     weight = 2
 
 [[menu.main]]
-    name = "Research"
-    identifier = "research"
-    url  = "/research/"
+    name = "Projects"
+    identifier = "projects"
+    url  = "/projects/"
     weight = 3
 
 [[menu.main]]
@@ -35,17 +36,20 @@ googleAnalytics = ""
 
 
 [[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
+    name = "News"
+    url  = "/news/"
     weight = 5
 
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/news/"
     style = "uchicago"
     logo = "img/dbuchicago-logo.png"
     logo_small = "img/dbuchicago-logo.png"
     direction = "John Crerar Library, 5730 S Ellis Ave, Chicago, IL 60637"
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
 
     address = """<p><strong>Department of Computer Science</strong>
         <br>5730 S. Ellis Avenue
@@ -65,9 +69,9 @@ googleAnalytics = ""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carousel]
     enable = true
@@ -94,6 +98,6 @@ googleAnalytics = ""
     people = "/people/:year/:month/:day/:filename/"
 
 [params.recent_posts]
-      enable = false
-      title = "From our blog"
-      subtitle = "Pellen"
+      enable = true
+      title = "News"
+      subtitle = "The latest from our group"

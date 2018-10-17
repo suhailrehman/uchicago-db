@@ -1,4 +1,4 @@
-weight: 4
+weight: 2
 name: "Machine Learning"
-icon: "fa fa-lightbulb-o"
-description: "Fifth abundantly made Give sixth hath. Cattle creature i be don't them behold green moved fowl Moved life us beast good yielding. Have bring."
+icon: "fa fa-cogs"
+description: "Modern, low-latency machine learning pipelines bring additional callenges to database systems. We are focusing on algorothmic techniques to ease some of the storage and movement challenges associated with streams in machine learning pipelines."
